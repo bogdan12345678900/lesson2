@@ -17,4 +17,21 @@
 #                  print(" ", end="")
 #          print()
 #
-
+# size = 3
+# for k in range(size):
+#     for i in range(9):
+#         if i % 2 == 0:
+#             for j in range(size):
+#                 print('*', end='')
+#         elif i % 2 == 1:
+#             for j in range(size):
+#                 print('_', end='')
+#     print()
+#     for i in range(9):
+#             if i % 2 == 0:
+#                 for j in range(size):
+#                     print('_', end='')
+#             elif i % 2 == 1:
+#                 for j in range(size):
+#                     print('*', end='')
+#     print()
