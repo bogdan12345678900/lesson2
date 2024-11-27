@@ -84,4 +84,5 @@ resp = requests.get(url=url,params=params)
 if resp.status_code == 200:
     data = resp.json()
     temperatura = data["main"]["temp"]
-    print(temperatura)
+    print(data["weather"][0]["icon"])
+print(temperatura)
