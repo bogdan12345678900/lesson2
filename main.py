@@ -98,3 +98,41 @@
 #         else:
 #             print("no")
 #     print(f"grade{round(12 * temp / 15, 0)}")
+
+# a = int(input("A "))
+# b = int(input("B "))
+# flag = 0
+# for i in range(2,a+1, 1):
+#     if a % i == 0 and b % i == 0 :
+#         print(f"NSD {i}")
+#         flag += 1
+#         break
+# if flag == 0:
+#     print(1)
+
+
+# b = int(input("6 "))
+#
+# for i in range(b):
+#     print(i, end=" ")
+#     for j in range(1, i + 1):
+#         if i == 0 or i == b - 1 or j == 0 or j == b - 1 or i == j or i > j:
+#             print()
+#             break
+#         elif
+
+
+# size = int(input("6 "))
+# for i in range(size):
+#     for j in range(size):
+#         if i == 0 or i == size - 1 or j == 0 or j == size - 1 or i == j or i > j:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+a = int(input("A "))
+for i in range(a):
+    for j in range(i + 1):
+        print((i + 1) * (i + 1), end=" ")
+    print()
