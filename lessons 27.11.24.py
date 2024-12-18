@@ -75,14 +75,14 @@
 #     print(True)
 
 
-import requests
-url = "https://api.openweathermap.org/data/2.5/weather?"
-city = input("City: ")
-API = "b22d0ddb2956385d16120b6d7a502fe0"
-params = {'q':city , "units":"metric","appid":API}
-resp = requests.get(url=url,params=params)
-if resp.status_code == 200:
-    data = resp.json()
-    temperatura = data["main"]["temp"]
-    print(data["weather"][0]["icon"])
-print(temperatura)
+# import requests
+# url = "https://api.openweathermap.org/data/2.5/weather?"
+# city = input("City: ")
+# API = "b22d0ddb2956385d16120b6d7a502fe0"
+# params = {'q':city , "units":"metric","appid":API}
+# resp = requests.get(url=url,params=params)
+# if resp.status_code == 200:
+#     data = resp.json()
+#     temperatura = data["main"]["temp"]
+#     print(data["weather"][0]["icon"])
+# print(temperatura)
